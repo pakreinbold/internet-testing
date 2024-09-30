@@ -1,0 +1,8 @@
+# Run: conda env create --file environment.yml
+name: internet_testing
+dependencies:
+  - python=3.10
+  - pip
+  - matplotlib
+  - pip:
+    - speedtest-cli
